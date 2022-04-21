@@ -3,10 +3,15 @@
 This is part of the kaggle competition https://www.kaggle.com/competitions/dogs-vs-cats-redux-kernels-edition/leaderboard
 
 As part of training model, ImageDataGenerator from keras image processing library is used from image augmentation and providing input to model
+
 To use image data generator, specific folder structure is required. 
+
 For training:
+```
 training/dog
+    
 training/cat
+```
 Since, this is a cat vs dog classification problem, 2 folders are created with the name of cat and dog. All the images of dogs in the training data are put into "dog" folder and similarly cat image are put into "cat" and both these folders are put into the training folder.
 
 ## Transfer learning
